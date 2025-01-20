@@ -73,7 +73,7 @@
                                 &lt 4 ESC    &lt 2 SPACE  &lt 3 TAB    &lt 6 ENTER  &lt 5 BSPC   &lt 7 DEL
             >;
 
-            label = "BASE";
+            display-name = "BASE";
         };
 
         qwerty {
@@ -90,7 +90,7 @@
                                 &lt 4 ESC    &lt 2 SPACE  &lt 3 TAB    &lt 6 ENTER  &lt 5 BSPC   &lt 7 DEL
             >;
 
-            label = "EXTRA";
+            display-name = "EXTRA";
         };
 
         navigation {
@@ -107,7 +107,7 @@
                             &trans     &trans     &trans    &kp ENTER     &kp BSPC   &kp DEL
             >;
 
-            label = "NAV";
+            display-name = "NAV";
         };
 
         mouse {
@@ -124,7 +124,7 @@
                             &trans     &trans     &trans    &trans  &trans  &trans
             >;
 
-            label = "MOUSE";
+            display-name = "MOUSE";
         };
 
         media {
@@ -141,7 +141,7 @@
                             &trans     &trans     &trans            &trans        &trans             &trans
             >;
 
-            label = "MEDIA";
+            display-name = "MEDIA";
         };
 
         numbers {
@@ -158,7 +158,7 @@
                            &kp DOT  &kp N0  &kp MINUS    &trans  &trans     &trans
             >;
 
-            label = "NUM";
+            display-name = "NUM";
         };
 
         symbols {
@@ -175,7 +175,7 @@
                              &trans     &trans          &trans                   &trans  &trans     &trans
             >;
 
-            label = "SYM";
+            display-name = "SYM";
         };
 
         function {
@@ -192,7 +192,7 @@
                          &kp ESC  &kp SPACE  &kp TAB            &trans  &trans     &trans
             >;
 
-            label = "FUNC";
+            display-name = "FUNC";
         };
     };
 };
