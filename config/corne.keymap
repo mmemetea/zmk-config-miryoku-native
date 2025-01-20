@@ -40,6 +40,20 @@
 // Keymap configuration (Colemak-DHm)
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        studio_unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <3 15>;
+        };
+
+        e_circumflex {
+            bindings = <&sl 1>;
+            key-positions = <8 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
