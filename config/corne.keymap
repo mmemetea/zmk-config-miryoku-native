@@ -45,8 +45,8 @@
             key-positions = <3 15>;
         };
 
-        e_circumflex {
-            bindings = <&sl 1>;
+        extra_layer {
+            bindings = <&to 1>;
             key-positions = <8 20>;
         };
 
