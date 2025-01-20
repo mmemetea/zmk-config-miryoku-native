@@ -11,6 +11,5 @@ Inspired by the [Miryoku layout by Manna Harbour](https://github.com/manna-harbo
 - Navigation keys
 - Media keys
 - Layout switch (Colemak DHm and QWERTY)
-- Gaming layer (disabled homerow modifiers)
 - Bluetooth
 - OLED displays
