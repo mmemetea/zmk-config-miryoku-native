@@ -106,7 +106,7 @@
         &kp LPAR  &kp RPAR  &kp UNDER       &none  &none  &none
       >;
     };
-
+    
     /* Function layer */
     FUN {
       display-name = "Fun";
