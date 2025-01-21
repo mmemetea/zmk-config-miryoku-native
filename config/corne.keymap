@@ -96,25 +96,25 @@
     keymap {
         compatible = "zmk,keymap";
         default_layer {
-            label = "DEF";
+            display-name = "DEF";
             bindings = <
                 &kp Q       &kp W       &kp F         &kp P        &kp B           &kp J          &kp L         &kp U          &kp Y        &kp &
                 &kp A       &kp R       &kp S         &kp T        &kp G           &kp M          &kp N         &kp E          &kp I        &kp O
                 &kp Z       &kp X       &kp C         &kp D        &kp V           &kp K          &kp H         &kp ,          &kp .      &kp /
-                                        &kp LCTL      &lt SYM      &kp LSFT        &kp SPACE      &lt BSPC  &kp DEL
+                                        &kp LCTRL      &lt SYM      &kp LSHIFT        &kp SPACE      &lt BSPC  &kp DEL
             >;
         };
         gaming_layer {
-            label = "GAM";
+            display-name = "GAM";
             bindings = <
                 &kp Q    &kp W  &kp E     &kp R     &kp T           &kp Y      &kp U   &kp I      &kp O    &kp P
                 &kp A    &kp S  &kp D     &kp F     &kp G           &kp H      &kp J   &kp K      &kp L    &kp &
                 &kp Z    &kp X  &kp C     &kp V     &kp B           &kp N      &kp M   &kp ,      &kp .  &kp /
-                                &kp LCTL  &lt GSYM  &kp SPACE       &trans   &trans   &trans
+                                &kp LCTRL  &lt GSYM  &kp SPACE       &trans   &trans   &trans
             >;
         };
         symbol_layer {
-            label = "SYM";
+            display-name = "SYM";
             bindings = <
                 &kp ESC   &kp \      &kp %      &kp ^      &trans   &trans     &kp ^      &kp [      &kp ]      &kp RET
                 &kp *      &kp (      &kp )      &kp :      &trans   &trans     &kp '      &kp {      &kp }      &lt RET
@@ -123,57 +123,57 @@
             >;
         };
         number_layer {
-            label = "NUM";
+            display-name = "NUM";
             bindings = <
                 &kp ESC    &kp 4  &kp 5  &kp 6 &trans   &trans      &kp |      &kp -      &kp /      &kp &
                 &kp (      &kp 1  &kp 2  &kp 3 &trans   &trans      &kp )      &kp _      &kp =      &lt NUM
                 &kp ~      &kp 7  &kp 8  &kp 9 &trans   &trans      &kp +      &kp ?      &kp !      &kp DEL
-                                   &kp . &kp 0 &kp LSFT      &kp SPACE  &trans    &trans
+                                   &kp . &kp 0 &kp LSHIFT      &kp SPACE  &trans    &trans
             >;
         };
         function_layer {
-            label = "FUN";
+            display-name = "FUN";
             bindings = <
                 &trans    &kp F6  &kp F5  &kp F4  &kp F10         &bt BT_SEL 0 &bt BT_SEL 1  &out OUT_USB  &out OUT_BLE  &trans
                 &kp CAPS &kp F3  &kp F2  &kp F1  &kp F11         &kp K_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DN  &kp C_BRI_UP
                 &trans   &kp F9  &kp F8  &kp F7  &kp F12         &trans        &trans         &trans         &lt DANGER    &trans
-                             &trans  &trans  &kp LSFT        &trans       &trans        &trans 
+                             &trans  &trans  &kp LSHIFT        &trans       &trans        &trans 
             >;
         };
         navigation_layer {
-            label = "NAV";
+            display-name = "NAV";
             bindings = <
                 &trans     &trans     &trans     &trans     &trans         &kp DOWN   &kp RIGHT  &trans      &trans      &trans
-                &kp LSFT  &kp LCTL  &kp LALT  &kp LGUI  &trans         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
+                &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
                 &trans     &trans     &trans     &trans     &trans         &kp UP     &kp PG_DN  &kp PG_UP  &kp END    &trans
-                            &trans     &trans     &kp LSFT      &kp SPACE  &trans      &trans
+                            &trans     &trans     &kp LSHIFT      &kp SPACE  &trans      &trans
             >;
         };
         settings_layer {
-            label = "SET";
+            display-name = "SET";
             bindings = <
                 &trans  &trans &trans &trans  &trans      &trans      &trans  &trans &trans  &trans
                 &trans  &trans &trans &trans  &trans      &trans      &trans  &trans &trans  &trans
-                &trans &trans &trans &trans  &trans      &bt BT_CLR &reset &trans &trans &trans
+                &trans &trans &trans &trans  &trans      &bt BT_CLR &sys_reset &trans &trans &trans
                          &trans &trans &trans      &trans      &trans  &trans 
             >;
         };
         lower_layer {
-            label = "LOW";
+            display-name = "LOW";
             bindings = <
                 &kp LSHFT  &kp Z   &kp X    &kp C    &kp V     &kp B     &kp LBKT        &kp RBKT  &kp N     &kp M     &kp ,      &kp .      &kp /      &kp &
                 &mo ADJUST &kp ESC &kp LALT &kp LGUI &kp LANG2 &mo LOWER &kp SPACE       &kp SPACE &mo RAISE &kp LANG1 &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
                         >;
         };
         raise_layer {
-            label = "RAI";
+            display-name = "RAI";
             bindings = <
                 &kp LSHFT  &kp ~   &kp !   &kp @    &kp #     &kp $     &kp %     &kp ^      &kp &      &kp *      &kp (      &kp )      &kp &
                 &mo ADJUST &kp `   &kp 1   &kp 2    &kp 3     &mo LOWER &kp SPACE       &kp SPACE &mo RAISE &kp 4     &kp 5     &kp 6     &kp /
                         >;
         };
         symbol_layer {
-            label = "SYM";
+            display-name = "SYM";
             bindings = <
                 &kp ESC   &kp \      &kp %      &kp ^      &trans   &trans     &kp ^      &kp [      &kp ]      &kp &
                 &kp *      &kp (      &kp )      &kp :      &trans   &trans     &kp '      &kp {      &kp }      &lt &
@@ -182,12 +182,12 @@
             >;
         };
         number_layer {
-            label = "NUM";
+            display-name = "NUM";
             bindings = <
                 &kp ESC    &kp 4  &kp 5  &kp 6 &trans   &trans      &kp |      &kp -      &kp /      &kp &
                 &kp (      &kp 1  &kp 2  &kp 3 &trans   &trans      &kp )      &kp _      &kp =      &lt &
                 &kp ~      &kp 7  &kp 8  &kp 9 &trans   &trans      &kp +      &kp ?      &kp !      &kp DEL
-                                   &kp . &kp 0 &kp LSFT      &kp SPACE  &trans    &trans
+                                   &kp . &kp 0 &kp LSHIFT      &kp SPACE  &trans    &trans
             >;
         };
     };
