@@ -2,79 +2,8 @@
  * Seth's Corne-ish Zen config
  * Uses a modified version of [the Pnohty layout](https://github.com/rayduck/pnohty).
  *
- * BASE
- * ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬────────┬─────┬─────┬─────╮
- * │  Q  │  W  │  F  │  P  │  G  │ │  J  │   L    │  U  │  Y  │  ;  │
- * │  A  │  R  │  S  │  T  │  D  │ │  H  │   N    │  E  │  I  │  O  │
- * │  Z  │  X  │  C  │  V  │  B  │ │  K  │   M    │  ,  │  .  │  /  │
- * ╰─────┴─────┤ CTL │-SYM-│ SFT │ │ SPC │NUM/BKSP│ DEL ├─────┴─────╯
- *             ╰─────┴─────┴─────╯ ╰─────┴────────┴─────╯
  *
- * SYMBOLS
- *╭──────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- *│ ESC  │  \  │  %  │  $  │GAMIN│ │     │  ^  │  {  │  }  │ RET │
- *│  *   │  (  │  )  │  :  │     │ │     │  '  │  [  │  ]  │-NAV-│
- *│-FUNC-│  `  │  @  │  &  │     │ │     │  #  │  <  │  >  │ DEL │
- *╰──────┴─────┤     │_SYM_│ SFT │ │ SPC │ ESC │     ├─────┴─────╯
- *             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
- *
- * NUMBERS
- * ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- * │ ESC │  4  │  5  │  6  │     │ │     │  │  │  -  │  /  │     │
- * │  '  │  1  │  2  │  3  │     │ │     │  "  │  _  │  =  │-NAV-│
- * │  ~  │  7  │  8  │  9  │     │ │     │  +  │  ?  │  !  │ DEL │
- * ╰─────┴─────┤  .  │  0  │ SFT │ │ SPC │_NUM_│     ├─────┴─────╯
- *             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
- *
- * FUNCTION
- * ╭──────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- * │      │ F 6 │ F 5 │ F 4 │ F10 │ │ BT0 │ BT1 │ USB │ BLE │     │
- * │ CAPSL│ F 3 │ F 2 │ F 1 │ F11 │ │VMUTE│VOLDN│VOLUP│BRIDN│BRIUP│
- * │_FUNC_│ F 9 │ F 8 │ F 7 │ F12 │ │     │     │SLEEP│-!!!-│     │
- * ╰──────┴─────┤     │_SYM_│ SFT │ │ SPC │     │ CMD ├─────┴─────╯
- *              ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
- *
- * NAVIGATION
- * ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- * │     │     │     │     │     │ │ DOW │RIGHT│     │     │     │
- * │ SFT │ CTL │ GUI │ ALT │     │ │ LFT │ DWN │ U P │RIGHT│_NAV_│
- * │     │     │     │     │     │ │ U P │PG_DN│PG_UP│ END │     │
- * ╰─────┴─────┤     │_SYM_│ SFT │ │ SPC │     │ CMD ├─────┴─────╯
- *             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-
- * DANGER
- * ╭──────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- * │      │     │     │     │     │ │     │     │     │     │     │
- * │      │     │     │     │     │ │     │     │     │     │     │
- * │_FUNC_│     │     │     │     │ │BTCLR│RESET│     │_!!!_│     │
- * ╰──────┴─────┤     │_SYM_│     │ │     │     │     ├─────┴─────╯
- *              ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯ 
- *
- * GAMING BASE
- * ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- * │ TAB │  Q  │  W  │  E  │  R  │ │  T  │  Y  │  U  │  I  │  O  │
- * │-GNM-│  A  │  S  │  D  │  F  │ │  G  │  H  │  J  │  K  │  L  │
- * │ SFT │  Z  │  X  │  C  │  V  │ │  B  │  N  │  M  │     │  P  │
- * ╰─────┴─────┤ CTL │-GSM-│ SPC │ │NORML│     │     ├─────┴─────╯
- *             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
- *
- * GAMING NUMBERS
- * ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- * │ TAB │  4  │  5  │  6  │     │ │     │     │     │     │     │
- * │_GNM_│  1  │  2  │  3  │     │ │     │     │     │     │     │
- * │ SFT │  7  │  8  │  9  │  /  │ │     │     │     │     │     │
- * ╰─────┴─────┤ CTL │     │ SPC │ │     │     │     ├─────┴─────╯
- *             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
- *
- * GAMING SYMBOLS
- * ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
- * │ ESC │     │     │  T  │  Y  │ │     │     │     │     │     │
- * │ F3  │     │     │  G  │  H  │ │     │     │     │     │     │
- * │ SFT │     │  M  │  V  │  B  │ │     │     │     │     │     │
- * ╰─────┴─────┤ CTL │_GSM_│ SPC │ │     │     │     ├─────┴─────╯
- *             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
- *
- * COMBS
+ * COMBOS
  * ╭──────────────╮     ╭──────────────╮
  * │ 0  1  2  3  4│     │ 5  6  7  8  9│
  * │10 11 12 13 14│     │15 16 17 18 19│
@@ -88,28 +17,25 @@
  *                   25 & 34 - GUI
  */
 
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define BASE 0
-#define GAMING 1
+#define DEF 0
+#define GAM 1
 #define SYM 2
 #define NUM 3
-#define FUNC 4
+#define FUN 4
 #define NAV 5
-#define DANGER 6
-#define GNUM 7
-#define GSYM 8
+#define SET 6
 
 / {
     chosen {
-    zmk,physical-layout = &foostan_corne_5col_layout;
+        zmk,physical-layout = &foostan_corne_5col_layout;
     };
 
-    //Definitions of homerow mods
+    // Definitions of homerow mods
     behaviors {
         hm: homerow_tap_preferred_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -118,15 +44,15 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-            };
         };
+    };
 
     combos {
         compatible = "zmk,combos";
         
         // W + F = TAB
         combo_wf_tab {
-            layers = <0 1 2 3 4 5 6 7>;
+            layers = <0 1 2 3 4 5 6>;
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp TAB>;
@@ -142,10 +68,10 @@
 
         // SYM + B = ALT
         combo_alt {
-            layers = <0 1 2 3 4 5 6 7>;
+            layers = <0 1 2 3 4 5 6>;
             timeout-ms = <50>;
             key-positions = <24 31>;
-            bindings = <&sk LALT>;
+            bindings = <&kp LALT>;
         };
 
         // NUM + K = LGUI
@@ -153,12 +79,12 @@
             layers = <0 1 2 3 4 5>;
             timeout-ms = <50>;
             key-positions = <25 34>;
-            bindings = <&sk LGUI>;
+            bindings = <&kp LGUI>;
         };
 
         // U + Y = RETURN
         combo_uy_ret {
-            layers = <0 1 2 3 4 5 6 7>;
+            layers = <0 1 2 3 4 5 6>;
             timeout-ms = <50>;
             key-positions = <7 8>;
             bindings = <&kp RET>;
@@ -166,136 +92,103 @@
     };
 };
 
-
-
 / {
-            / {
-        keymap {
-            compatible = "zmk,keymap";
-        
-            colemak_layer {
-                label = "BASE";
-                bindings = <
-                    &kp Q       &kp W       &kp F         &kp P        &kp G           &kp J          &kp L         &kp U          &kp Y        &kp SEMI
-                    &kp A       &kp R       &kp S         &kp T        &kp D           &kp H          &kp N         &kp E          &kp I        &kp O
-                    &kp Z       &kp X       &kp C         &kp V        &kp B           &kp K          &kp M         &kp COMMA      &kp DOT      &kp FSLH
-                                           &sk LCTL      &mo SYM      &sk LSFT        &kp SPACE      < NUM BSPC  &kp DEL
-                >;
-            };
-                gaming_layer {
-                    label = "GAME";
-// ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
-// │ TAB │  Q  │  W  │  E  │  R  │ │  T  │  Y  │  U  │  I  │  O  │
-// │-GNM-│  A  │  S  │  D  │  F  │ │  G  │  H  │  J  │  K  │  L  │
-// │ SFT │  Z  │  X  │  C  │  V  │ │  B  │  N  │  M  │     │  P  │
-// ╰─────┴─────┤ CTL │-GSM-│ SPC │ │NORML│     │     ├─────┴─────╯
-//             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-                    bindings = <
-&kp TAB  &kp Q  &kp W     &kp E     &kp R           &kp T      &kp Y   &kp U      &kp I    &kp O
-&mo GNUM &kp A  &kp S     &kp D     &kp F           &kp G      &kp H   &kp J      &kp K    &kp L
-&kp LSFT &kp Z  &kp X     &kp C     &kp V           &kp B      &kp N   &kp M      &none    &kp P
-                &kp LCTL  &mo GSYM  &kp SPACE       &to BASE   &none   &none
-                    >;
-                };
-                symbol_layer {
-// ╭──────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
-// │ ESC  │  \  │  %  │  $  │GAMIN│ │     │  ^  │  {  │  }  │ RET │
-// │  *   │  (  │  )  │  :  │     │ │     │  '  │  [  │  ]  │-NAV-│
-// │-FUNC-│  `  │  @  │  &  │ ALT │ │     │  #  │  <  │  >  │ DEL │
-// ╰──────┴─────┤     │_SYM_│ SFT │ │ SPC │ ESC │     ├─────┴─────╯
-//              ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-                        bindings = <
-&kp ESC   &kp BSLH   &kp PRCNT  &kp DLLR  &to GAMING   &none     &kp CARET &kp LBRC &kp RBRC &kp RET
-&kp STAR  &kp LPAR   &kp RPAR   &kp COLON &none        &none     &kp SQT   &kp LBKT &kp RBKT &lt NAV RET
-&mo FUNC  &kp GRAVE  &kp AT     &kp AMPS  &none        &none     &kp HASH  &kp LT   &kp GT   &kp DEL
-                     &trans     &trans    &kp LSFT     &kp SPACE &kp ESC   &trans
-                        >;
-                };
-                number_layer {
-// ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
-// │ ESC │  4  │  5  │  6  │     │ │     │  |  │  -  │  /  │     │
-// │  '  │  1  │  2  │  3  │     │ │     │  "  │  _  │  =  │-NAV-│
-// │  ~  │  7  │  8  │  9  │     │ │ GUI │  +  │  ?  │  !  │ DEL │
-// ╰─────┴─────┤  .  │  0  │ SFT │ │ SPC │_NUM_│     ├─────┴─────╯
-//             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-                        bindings = <
-&kp ESC    &kp N4  &kp N5  &kp N6 &none         &none      &kp PIPE  &kp MINUS  &kp FSLH    &none
-&kp SQT    &kp N1  &kp N2  &kp N3 &none         &none      &kp DQT   &kp UNDER  &kp EQUAL   &mo NAV
-&kp TILDE  &kp N7  &kp N8  &kp N9 &none         &none      &kp PLUS  &kp QMARK  &kp EXCL    &kp DEL
-                   &kp DOT &kp N0 &kp LSFT      &kp SPACE  &trans    &trans
-                        >;
-                };
-                FUNC_layer {
-// ╭──────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮ 
-// │      │ F 6 │ F 5 │ F 4 │ F10 │ │ BT0 │ BT1 │ USB │ BLE │     │ 
-// │ CAPSL│ F 3 │ F 2 │ F 1 │ F11 │ │VMUTE│VOLDN│VOLUP│BRIDN│BRIUP│ 
-// │_FUNC_│ F 9 │ F 8 │ F 7 │ F12 │ │     │     │SLEEP│-!!!-│     │ 
-// ╰──────┴─────┤     │_SYM_│ SFT │ │ SPC │     │ CMD ├─────┴─────╯ 
-//              ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯ 
-                        bindings = <
-&none    &kp F6  &kp F5  &kp F4  &kp F10         &bt BT_SEL 0 &bt BT_SEL 1  &out OUT_USB  &out OUT_BLE  &none
-&kp CAPS &kp F3  &kp F2  &kp F1  &kp F11         &kp K_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DN  &kp C_BRI_UP
-&trans   &kp F9  &kp F8  &kp F7  &kp F12         &none        &none         &none         &mo DANGER    &trans
-                 &trans  &trans  &kp LSFT        &trans       &trans        &trans 
-                        >;
-                };
-                nav_layer {
-// ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
-// │     │     │     │     │     │ │ DOW │RIGHT│     │     │     │
-// │ SFT │ CTL │ GUI │ ALT │     │ │ LFT │ DWN │ U P │RIGHT│_NAV_│
-// │     │     │     │     │     │ │ U P │PG_DN│PG_UP│ END │     │
-// ╰─────┴─────┤     │_SYM_│ SFT │ │ SPC │     │ CMD ├─────┴─────╯
-//             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-                        bindings = <
-&none     &none     &none     &none     &none         &kp DOWN   &kp RIGHT  &none      &none      &none
-&sk LSFT  &sk LCTL  &sk LALT  &sk LGUI  &none         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
-&none     &none     &none     &none     &none         &kp UP     &kp PG_DN  &kp PG_UP  &kp END    &none
-                    &none     &none     &kp LSFT      &kp SPACE  &none      &none
-                        >;
-                };
-                danger_layer {
-// ╭──────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
-// │      │     │     │     │     │ │     │     │     │     │     │
-// │      │     │     │     │     │ │     │     │     │     │     │
-// │_FUNC_│     │     │     │     │ │BTCLR│RESET│     │_!!!_│     │
-// ╰──────┴─────┤     │_SYM_│     │ │     │     │     ├─────┴─────╯
-//              ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-                    // impactful buttons
-                    // Bluetooth clear, reset
-                    bindings = <
-&none  &none &none &none  &none      &none      &none  &none &none  &none
-&none  &none &none &none  &none      &none      &none  &none &none  &none
-&trans &none &none &none  &none      &bt BT_CLR &reset &none &trans &none
-             &none &trans &none      &none      &none  &none 
-                    >;
-                };
-                gaming_numbers {
-// ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
-// │ TAB │  4  │  5  │  6  │     │ │     │     │     │     │     │
-// │_GNM_│  1  │  2  │  3  │     │ │     │     │     │     │     │
-// │ SFT │  7  │  8  │  9  │  /  │ │     │     │     │     │     │
-// ╰─────┴─────┤ CTL │     │ SPC │ │     │     │     ├─────┴─────╯
-//             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-                bindings = <
-&kp TAB  &kp N4  &kp N5    &kp N6   &none           &none  &none   &none   &none   &none
-&none    &kp N1  &kp N2    &kp N3   &none           &none  &none   &none   &none   &none
-&kp LSFT &kp N7  &kp N8    &kp N9   &kp FSLH        &none  &none   &none   &none   &none
-                 &kp LCTL  &none    &kp SPACE       &none  &none   &none
-                    >;
-                };
-                gaming_symbols {
-// ╭─────┬─────┬─────┬─────┬─────╮ ╭─────┬─────┬─────┬─────┬─────╮
-// │ ESC │     │     │  T  │  Y  │ │     │     │     │     │     │
-// │ F3  │     │     │  G  │  H  │ │     │     │     │     │     │
-// │ SFT │     │  M  │  V  │  B  │ │     │     │     │     │     │
-// ╰─────┴─────┤ CTL │_GSM_│ SPC │ │     │     │     ├─────┴─────╯
-//             ╰─────┴─────┴─────╯ ╰─────┴─────┴─────╯
-                bindings = <
-&kp TAB  &kp N4  &kp N5    &kp T   &kp Y           &none  &none   &none   &none   &none
-&kp F3   &kp N1  &kp N2    &kp G   &kp H           &none  &none   &none   &none   &none
-&kp LSFT &kp N7  &kp N8    &kp V   &kp B           &none  &none   &none   &none   &none
-                 &kp LCTL  &none   &kp SPACE       &none  &none   &none
-                    >;
-                };
+    keymap {
+        compatible = "zmk,keymap";
+        default_layer {
+            label = "DEF";
+            bindings = <
+                &kp Q       &kp W       &kp F         &kp P        &kp B           &kp J          &kp L         &kp U          &kp Y        &kp &
+                &kp A       &kp R       &kp S         &kp T        &kp G           &kp M          &kp N         &kp E          &kp I        &kp O
+                &kp Z       &kp X       &kp C         &kp D        &kp V           &kp K          &kp H         &kp ,          &kp .      &kp /
+                                        &kp LCTL      &lt SYM      &kp LSFT        &kp SPACE      &lt BSPC  &kp DEL
+            >;
         };
+        gaming_layer {
+            label = "GAM";
+            bindings = <
+                &kp Q    &kp W  &kp E     &kp R     &kp T           &kp Y      &kp U   &kp I      &kp O    &kp P
+                &kp A    &kp S  &kp D     &kp F     &kp G           &kp H      &kp J   &kp K      &kp L    &kp &
+                &kp Z    &kp X  &kp C     &kp V     &kp B           &kp N      &kp M   &kp ,      &kp .  &kp /
+                                &kp LCTL  &lt GSYM  &kp SPACE       &trans   &trans   &trans
+            >;
+        };
+        symbol_layer {
+            label = "SYM";
+            bindings = <
+                &kp ESC   &kp \      &kp %      &kp ^      &trans   &trans     &kp ^      &kp [      &kp ]      &kp RET
+                &kp *      &kp (      &kp )      &kp :      &trans   &trans     &kp '      &kp {      &kp }      &lt RET
+                &kp ~      &kp `      &kp |      &kp +      &trans   &trans     &kp #      &kp <      &kp >      &kp DEL
+                                    &trans     &trans    &kp LSFT &kp SPACE  &kp ESC   &trans
+            >;
+        };
+        number_layer {
+            label = "NUM";
+            bindings = <
+                &kp ESC    &kp 4  &kp 5  &kp 6 &trans   &trans      &kp |      &kp -      &kp /      &kp &
+                &kp (      &kp 1  &kp 2  &kp 3 &trans   &trans      &kp )      &kp _      &kp =      &lt NUM
+                &kp ~      &kp 7  &kp 8  &kp 9 &trans   &trans      &kp +      &kp ?      &kp !      &kp DEL
+                                   &kp . &kp 0 &kp LSFT      &kp SPACE  &trans    &trans
+            >;
+        };
+        function_layer {
+            label = "FUN";
+            bindings = <
+                &trans    &kp F6  &kp F5  &kp F4  &kp F10         &bt BT_SEL 0 &bt BT_SEL 1  &out OUT_USB  &out OUT_BLE  &trans
+                &kp CAPS &kp F3  &kp F2  &kp F1  &kp F11         &kp K_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRI_DN  &kp C_BRI_UP
+                &trans   &kp F9  &kp F8  &kp F7  &kp F12         &trans        &trans         &trans         &lt DANGER    &trans
+                             &trans  &trans  &kp LSFT        &trans       &trans        &trans 
+            >;
+        };
+        navigation_layer {
+            label = "NAV";
+            bindings = <
+                &trans     &trans     &trans     &trans     &trans         &kp DOWN   &kp RIGHT  &trans      &trans      &trans
+                &kp LSFT  &kp LCTL  &kp LALT  &kp LGUI  &trans         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
+                &trans     &trans     &trans     &trans     &trans         &kp UP     &kp PG_DN  &kp PG_UP  &kp END    &trans
+                            &trans     &trans     &kp LSFT      &kp SPACE  &trans      &trans
+            >;
+        };
+        settings_layer {
+            label = "SET";
+            bindings = <
+                &trans  &trans &trans &trans  &trans      &trans      &trans  &trans &trans  &trans
+                &trans  &trans &trans &trans  &trans      &trans      &trans  &trans &trans  &trans
+                &trans &trans &trans &trans  &trans      &bt BT_CLR &reset &trans &trans &trans
+                         &trans &trans &trans      &trans      &trans  &trans 
+            >;
+        };
+        lower_layer {
+            label = "LOW";
+            bindings = <
+                &kp LSHFT  &kp Z   &kp X    &kp C    &kp V     &kp B     &kp LBKT        &kp RBKT  &kp N     &kp M     &kp ,      &kp .      &kp /      &kp &
+                &mo ADJUST &kp ESC &kp LALT &kp LGUI &kp LANG2 &mo LOWER &kp SPACE       &kp SPACE &mo RAISE &kp LANG1 &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
+                        >;
+        };
+        raise_layer {
+            label = "RAI";
+            bindings = <
+                &kp LSHFT  &kp ~   &kp !   &kp @    &kp #     &kp $     &kp %     &kp ^      &kp &      &kp *      &kp (      &kp )      &kp &
+                &mo ADJUST &kp `   &kp 1   &kp 2    &kp 3     &mo LOWER &kp SPACE       &kp SPACE &mo RAISE &kp 4     &kp 5     &kp 6     &kp /
+                        >;
+        };
+        symbol_layer {
+            label = "SYM";
+            bindings = <
+                &kp ESC   &kp \      &kp %      &kp ^      &trans   &trans     &kp ^      &kp [      &kp ]      &kp &
+                &kp *      &kp (      &kp )      &kp :      &trans   &trans     &kp '      &kp {      &kp }      &lt &
+                &kp ~      &kp `      &kp |      &kp +      &trans   &trans     &kp #      &kp <      &kp >      &kp DEL
+                                    &trans     &trans    &kp LSFT &kp SPACE  &kp ESC   &trans
+            >;
+        };
+        number_layer {
+            label = "NUM";
+            bindings = <
+                &kp ESC    &kp 4  &kp 5  &kp 6 &trans   &trans      &kp |      &kp -      &kp /      &kp &
+                &kp (      &kp 1  &kp 2  &kp 3 &trans   &trans      &kp )      &kp _      &kp =      &lt &
+                &kp ~      &kp 7  &kp 8  &kp 9 &trans   &trans      &kp +      &kp ?      &kp !      &kp DEL
+                                   &kp . &kp 0 &kp LSFT      &kp SPACE  &trans    &trans
+            >;
+        };
+    };
 };
